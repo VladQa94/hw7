@@ -7,9 +7,9 @@ m = 3, n = 4.
 8 7,8 -7,1 9
 */
 
-Console.WriteLine("Введите количество строк");
+Console.WriteLine("Введите количество строк: ");
 int lengthRow = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите количество столбцов");
+Console.WriteLine("Введите количество столбцов: ");
 int lengthCol = Convert.ToInt32(Console.ReadLine());
 
 double[,] numbers = new double[lengthRow, lengthCol];
